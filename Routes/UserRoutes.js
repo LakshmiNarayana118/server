@@ -1,5 +1,4 @@
 const app = require('express').Router();
-const { userSchema } = require('../Schema/PostSchema');
 const { resetPasswordSchema } = require('../Schema/resetpassword');
 const { loginSchema } = require('../Schema/signIn');
 const { registerSchema } = require('../Schema/signUp');
